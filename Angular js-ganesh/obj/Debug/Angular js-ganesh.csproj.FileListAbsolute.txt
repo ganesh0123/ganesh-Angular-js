@@ -1,0 +1,6 @@
+c:\users\ganesan.n\documents\visual studio 2013\Projects\Angular js-ganesh\Angular js-ganesh\bin\Angular js-ganesh.dll.config
+c:\users\ganesan.n\documents\visual studio 2013\Projects\Angular js-ganesh\Angular js-ganesh\bin\Angular js-ganesh.dll
+c:\users\ganesan.n\documents\visual studio 2013\Projects\Angular js-ganesh\Angular js-ganesh\bin\Angular js-ganesh.pdb
+c:\users\ganesan.n\documents\visual studio 2013\Projects\Angular js-ganesh\Angular js-ganesh\obj\Debug\Angular js-ganesh.csprojResolveAssemblyReference.cache
+c:\users\ganesan.n\documents\visual studio 2013\Projects\Angular js-ganesh\Angular js-ganesh\obj\Debug\Angular js-ganesh.dll
+c:\users\ganesan.n\documents\visual studio 2013\Projects\Angular js-ganesh\Angular js-ganesh\obj\Debug\Angular js-ganesh.pdb

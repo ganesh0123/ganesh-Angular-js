@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+    </title>
+    <script src="Scripts/JavaScript8.js"></script>
+    <link href="StyleSheet7.css" rel="stylesheet" />
+    <script src="Scripts/JavaScript8.js"></script>
+</head>
+
+    <body ng-app="myModule">
+        <div ng-controller-"mycontroller">
+            Order By :<select ng-model="sortcolumn">
+                <option value="name">Name Asc</option>
+                <option value="gender">Gender Asc</option>
+                <option value="dateofbirth">Date of Birth Asc</option>
+                <option value="salary">Salary Asc</option>
+            </select>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Date of Birth</th>
+                        <th>Gender</th>
+                        <th>Salary(number)</th>
+                        <th>Salary(currency)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="employee in tblemployee | orderBy:sortcolumn">
+                        <td>{{employee.name}}</td>
+                        <td>{{employee.dateofbirth}}</td>
+                        <td>{{employee.gender}}</td>
+                        <td>{{employee.salary}}</td>
+                        <td>{{employee.salary}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+</html>

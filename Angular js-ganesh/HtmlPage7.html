@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/JavaScript7.js"></script>
+    <link href="StyleSheet7.css" rel="stylesheet" />
+</head>
+<body ng-app="myModule">
+    <div ng-controller-"mycontroller">
+        <table>
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date of Birth</th>
+                <th>Gender</th>
+                <th>Salary(number)</th>
+                <th>Salary(currency)</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="employee in tblemployee | limitTo:rowlimit">
+                    <td>{{employee.name | uppercase}}</td>
+                    <td>{{employee.dateofbirth | date:"dd/MM/yyyy"}}</td>
+                    <td>{{employee.gender | lowercase}}</td>
+                    <td>{{employee.salary | number:2}}</td>
+                    <td>{{employee.salary | currency}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
